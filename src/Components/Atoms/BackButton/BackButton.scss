@@ -1,0 +1,23 @@
+$dark-blue: #1A1F36;
+
+.backButtonContainer {
+    display: flex;
+    align-items: center;
+    
+    padding: .5rem;
+
+    cursor: pointer;
+
+    img {
+        margin-right: .5rem;
+
+        width: 100%;
+        max-width: 18px;
+    }
+
+    p {
+        font-weight: 500;
+
+        color: $dark-blue;
+    }
+}

@@ -1,0 +1,11 @@
+.laptopContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 4.5rem 2rem 2rem;
+
+    .laptopDesktop {
+        display: none;
+    }
+}
