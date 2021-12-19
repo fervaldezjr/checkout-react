@@ -1,0 +1,92 @@
+.containerTriple {
+
+    position: relative;
+
+    .cardContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        margin: 2rem 0;
+    
+        position: relative;
+    
+        p {
+            font-weight: 600;
+    
+            color: #697386;
+    
+            margin-bottom: .5rem;
+        }
+    
+        input {
+            padding: 9px 12px;
+    
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 1px;
+            border-bottom-left-radius: 1px;
+            border: solid 1px #3C42571F;
+    
+            box-shadow: 0px 2px 5px #00000014, 0px 1px 1px #0000000a;
+    
+            color: #8792A2;
+    
+            &:focus {
+                background-color: none;
+                outline: none;
+            }
+        }
+    
+        .brandCard {
+            display: flex;
+    
+            position: absolute;
+            right: 10px;
+            top: 28px;
+    
+            img {
+                padding: .5rem .3rem;
+            }
+        }
+    }
+
+    .ccvContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 100%;
+
+        position: absolute;
+        top: 62px;
+
+        margin-bottom: .5rem;
+
+        input {
+            width: 100%;
+
+            padding: 9px 12px;
+    
+            border-top-left-radius: 1px;
+            border-top-right-radius: 1px;
+            border-bottom-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border: solid 1px #3C42571F;
+    
+            box-shadow: 0px 2px 5px #00000014, 0px 1px 1px #0000000a;
+    
+            color: #8792A2;
+    
+            &:focus {
+                background-color: none;
+                outline: none;
+            }
+        }
+
+        img {
+            position: absolute;
+            right: 12px;
+        }
+    }
+};

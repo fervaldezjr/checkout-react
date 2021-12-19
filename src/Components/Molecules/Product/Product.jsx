@@ -10,7 +10,8 @@ export function Product() {
         <section className="productContent">
             <BackButton />
             <Laptop />
-
+            <Description />
+            <PayButton />
         </section>
     )
 };

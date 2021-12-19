@@ -1,0 +1,32 @@
+.nameContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: 2rem 0;
+
+    p {
+        font-weight: 600;
+
+        color: #697386;
+
+        margin-top: 2rem;
+        margin-bottom: .5rem;
+    }
+
+    input {
+        padding: 9px 12px;
+
+        border-radius: 5px;
+        border: solid 1px #3C42571F;
+
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.08), 0px 1px 1px rgba(0, 0, 0, 0.04);
+
+        color: #8792A2;
+
+        &:focus {
+            background-color: none;
+            outline: none;
+        }
+    }
+};
