@@ -6,6 +6,31 @@ import Mastercard from '../../../Images/Mastercard.png';
 import CVC from '../../../Images/CVCard.png';
 import './CardInformation.scss';
 
+// Validación de números de tarjeta
+
+const cardInfo = document.querySelector('#cardInformation');
+
+cardInfo.addEventListener('keyup', (e) => {
+	let valorInput = e.target.value;
+
+	cardInfo.value = valorInput
+	// Eliminamos espacios en blanco
+	.replace(/\s/g, '')
+	// Eliminar las letras
+	.replace(/\D/g, '')
+	// Ponemos espacio cada cuatro numeros
+	.replace(/([0-9]{4})/g, '$1 ')
+	// Elimina el ultimo espaciado
+	.trim();
+
+	cardInfo.textContent = valorInput;
+
+	if(valorInput === ''){
+		cardInfo.textContent = '#### #### #### ####';
+
+	}
+});
+
 export function CardInformation() {
     return (
         <div className='containerTriple'>
