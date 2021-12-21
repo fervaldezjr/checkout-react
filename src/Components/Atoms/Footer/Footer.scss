@@ -1,0 +1,29 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 2rem 0;
+
+    p {
+        color: #8792A2;
+        font-weight: 500;
+        font-size: .8rem;
+
+        display: flex;
+        align-items: center;
+
+        margin-bottom: .5rem;
+    }
+
+    .footerLinks {
+        a {
+            color: #8792A2;
+            font-weight: 500;
+            font-size: .8rem;
+            text-decoration: none;
+
+            padding: .5rem;
+        }
+    }
+}
