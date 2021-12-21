@@ -9,3 +9,15 @@
         display: none;
     }
 }
+
+@media (min-width: 1024px) {
+    .laptopContainer {
+        .laptopPhone {
+            display: none;
+        }
+
+        .laptopDesktop {
+            display: block;
+        }
+    }
+}

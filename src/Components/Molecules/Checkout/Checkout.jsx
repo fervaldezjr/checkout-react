@@ -1,4 +1,5 @@
 import React from 'react';
+import { PayButton } from '../../Atoms/PayButton/PayButton';
 import {PayCard} from '../../Atoms/PayCard/PayCard';
 import {Email} from '../../Atoms/Email/Email';
 import {CardInformation} from '../../Atoms/CardInformation/CardInformation';
@@ -11,6 +12,7 @@ import './Checkout.scss';
 export function Checkout() {
     return (
         <div className="checkoutContainer">
+            <PayButton />
             <PayCard />
             <Email />
             <CardInformation />

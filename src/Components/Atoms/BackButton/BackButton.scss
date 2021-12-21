@@ -21,3 +21,12 @@ $dark-blue: #1A1F36;
         color: $dark-blue;
     }
 }
+
+@media (min-width: 1024px) {
+    .backButtonContainer {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        width: 300px;
+    }
+}

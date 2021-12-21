@@ -4,3 +4,11 @@ main {
 
     margin: 1rem;
 }
+
+@media (min-width: 1024px) {
+    main {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
