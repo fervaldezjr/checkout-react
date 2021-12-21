@@ -4,7 +4,7 @@ import {Email} from '../../Atoms/Email/Email';
 import {CardInformation} from '../../Atoms/CardInformation/CardInformation';
 import {NameOnCard} from '../../Atoms/NameOnCard/NameOnCard';
 import {CountryOrRegion} from '../../Atoms/CountryOrRegion/CountryOrRegion';
-import {PayButton} from '../../Atoms/PayButton/PayButton';
+import {ButtonAlternative} from '../../Atoms/ButtonAlternative/ButtonAlternative';
 import './Checkout.scss';
 
 export function Checkout() {
@@ -14,8 +14,8 @@ export function Checkout() {
             <Email />
             <CardInformation />
             <NameOnCard />
-            {/* <CountryOrRegion />
-            <PayButton /> */}
+            <CountryOrRegion />
+            <ButtonAlternative />
         </div>
     )
 };
